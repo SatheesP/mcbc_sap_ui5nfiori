@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Master Class</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Adding external stylesheet or css file -->
+	<style>
+		/* Embedded/internal style or css definition */
+		hr.heading { 
+			border-top: 2px dashed darkblue;
+		}
+		
+		hr.section {
+			border: 5px solid limegreen;
+			border-radius: 2px;
+		}
+		
+		li { color: green; list-style-type: square; }
+		li:nth-child(odd) { color: deeppink; }
+		
+		/* reuse the class selector for multiple different html elements */
+		.underline {
+			/* border-top: 0px; */
+			border-bottom: 2px dotted yellowgreen;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color:blue;font-style:italic;">Master Class offers BOOTCAMP for set of SAP Technology topics</h1>
+	<hr class="heading"/> <!-- inline style or css definition -->
+    <p title="Master Class BOOTCAMP">BOOTCAMP sample source available as public git repos, 
+	each BOOTCAMP is associated with Quick Reference Guide in-line with Training Content.</p>
+	<hr class="section"/>
+	<ul>
+		<li title="BOOTCAMP">ABAP in Eclipse</li> <!-- title attribute displayed as Tooltip -->
+		<li title="BOOTCAMP">Modern ABAP</li>
+		<li title="BOOTCAMP">OData</li>
+		<li title="BOOTCAMP">ABAP Unit Testing</li>
+		<li class="underline" title="BOOTCAMP">SAP UI5 and Fiori</li>
+	</ul>
+	
+	<hr class="underline"/> <!-- reusing style class above last list item and here -->
+</body>
+
+</html>
