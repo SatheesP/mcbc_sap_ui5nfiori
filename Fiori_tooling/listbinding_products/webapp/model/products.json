@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "name": "Apple",
+      "description": "A juicy red apple",
+      "price": 0.5,
+      "stock": 100,
+      "icon": "sap-icon://nutrition-activity",
+      "iconEmoji": "🍎"
+    },
+    {
+      "productId": 2,
+      "name": "Banana",
+      "description": "A ripe yellow banana",
+      "price": 0.3,
+      "stock": 150,
+      "icon": "sap-icon://nutrition-activity",
+      "iconEmoji": "🍌"
+    },
+    {
+      "productId": 3,
+      "name": "Laptop",
+      "description": "A high-performance laptop",
+      "price": 999.99,
+      "stock": 50,
+      "icon": "sap-icon://laptop",
+      "iconEmoji": "💻"
+    },
+    {
+      "productId": 4,
+      "name": "Headphones",
+      "description": "Noise-cancelling over-ear headphones",
+      "price": 199.99,
+      "stock": 75,
+      "icon": "sap-icon://headset",
+      "iconEmoji": "🎧"
+    },
+    {
+      "productId": 5,
+      "name": "Coffee",
+      "description": "A bag of freshly ground coffee",
+      "price": 15.0,
+      "stock": 200,
+      "icon": "sap-icon://meal",
+      "iconEmoji": "☕"
+    },
+    {
+      "productId": 6,
+      "name": "Camera",
+      "description": "A digital camera with high resolution",
+      "price": 499.99,
+      "stock": 30,
+      "icon": "sap-icon://camera",
+      "iconEmoji": "📷"
+    },
+    {
+      "productId": 7,
+      "name": "Book",
+      "description": "A best-selling novel",
+      "price": 12.99,
+      "stock": 120,
+      "icon": "sap-icon://course-book",
+      "iconEmoji": "📖"
+    },
+    {
+      "productId": 8,
+      "name": "T-shirt",
+      "description": "A comfortable cotton t-shirt",
+      "price": 9.99,
+      "stock": 250,
+      "icon": "sap-icon://employee",
+      "iconEmoji": "👕"
+    },
+    {
+      "productId": 9,
+      "name": "Bicycle",
+      "description": "A mountain bike with 21 gears",
+      "price": 299.99,
+      "stock": 20,
+      "icon": "sap-icon://cart",
+      "iconEmoji": "🚲"
+    },
+    {
+      "productId": 10,
+      "name": "Pizza",
+      "description": "A large pepperoni pizza",
+      "price": 15.99,
+      "stock": 50,
+      "icon": "sap-icon://meal",
+      "iconEmoji": "🍕"
+    }
+  ]
+}

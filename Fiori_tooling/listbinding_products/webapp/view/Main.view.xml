@@ -1,0 +1,13 @@
+<mvc:View controllerName="masterclass.ui5.listbindingproducts.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+<List items="{/products}">
+    <items>
+        <StandardListItem icon="{icon}" iconInset="false" title="{name}" description="{description}" info="{iconEmoji}" />
+    </items>
+</List>
+        </content>
+    </Page>
+</mvc:View>
