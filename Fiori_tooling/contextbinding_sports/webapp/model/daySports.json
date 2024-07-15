@@ -1,0 +1,173 @@
+{
+  "weekdays": [
+    {
+      "dayId": 1,
+      "name": "Monday",
+      "iconEmoji": "🌞",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Soccer",
+          "iconEmoji": "⚽"
+        },
+        {
+          "sportId": 2,
+          "name": "Basketball",
+          "iconEmoji": "🏀"
+        }
+      ]
+    },
+    {
+      "dayId": 2,
+      "name": "Tuesday",
+      "iconEmoji": "🌞",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Tennis",
+          "iconEmoji": "🎾"
+        },
+        {
+          "sportId": 2,
+          "name": "Swimming",
+          "iconEmoji": "🏊"
+        }
+      ]
+    },
+    {
+      "dayId": 3,
+      "name": "Wednesday",
+      "iconEmoji": "🌞",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Running",
+          "iconEmoji": "🏃"
+        },
+        {
+          "sportId": 2,
+          "name": "Cycling",
+          "iconEmoji": "🚴"
+        }
+      ]
+    },
+    {
+      "dayId": 4,
+      "name": "Thursday",
+      "iconEmoji": "🌞",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Yoga",
+          "iconEmoji": "🧘"
+        },
+        {
+          "sportId": 2,
+          "name": "Boxing",
+          "iconEmoji": "🥊"
+        }
+      ]
+    },
+    {
+      "dayId": 5,
+      "name": "Friday",
+      "iconEmoji": "🌞",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Hiking",
+          "iconEmoji": "🥾"
+        },
+        {
+          "sportId": 2,
+          "name": "Gymnastics",
+          "iconEmoji": "🤸"
+        }
+      ]
+    },
+    {
+      "dayId": 6,
+      "name": "Saturday",
+      "iconEmoji": "🔥",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Yoga",
+          "iconEmoji": "🧘"
+        },
+        {
+          "sportId": 2,
+          "name": "Baseball",
+          "iconEmoji": "⚾"
+        },
+        {
+          "sportId": 3,
+          "name": "Golf",
+          "iconEmoji": "⛳"
+        },
+        {
+          "sportId": 4,
+          "name": "Football",
+          "iconEmoji": "🏈"
+        },
+        {
+          "sportId": 5,
+          "name": "Cricket",
+          "iconEmoji": "🏏"
+        },
+        {
+          "sportId": 6,
+          "name": "Soccer",
+          "iconEmoji": "⚽"
+        }
+      ]
+    },
+    {
+      "dayId": 7,
+      "name": "Sunday",
+      "iconEmoji": "🔥",
+      "sports": [
+        {
+          "sportId": 1,
+          "name": "Yoga",
+          "iconEmoji": "🧘"
+        },
+        {
+          "sportId": 2,
+          "name": "Football",
+          "iconEmoji": "🏈"
+        },
+        {
+          "sportId": 3,
+          "name": "Cricket",
+          "iconEmoji": "🏏"
+        },
+        {
+          "sportId": 4,
+          "name": "Hocky",
+          "iconEmoji": "🏑"
+        },
+        {
+          "sportId": 5,
+          "name": "Bowling",
+          "iconEmoji": "🎳"
+        },
+        {
+          "sportId": 6,
+          "name": "Table Tennis",
+          "iconEmoji": "🏓"
+        },
+        {
+          "sportId": 7,
+          "name": "Ice Skate",
+          "iconEmoji": "⛸️"
+        },
+        {
+          "sportId": 8,
+          "name": "Soccer",
+          "iconEmoji": "⚽"
+        }
+      ]
+    }
+  ]
+}

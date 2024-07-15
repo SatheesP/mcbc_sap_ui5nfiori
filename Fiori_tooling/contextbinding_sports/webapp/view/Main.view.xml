@@ -1,0 +1,54 @@
+<mvc:View
+    controllerName="contextbindingsports.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Table
+                id="tblListWeekdays"
+                headerText="Weekdays"
+                items="{/weekdays}"
+                mode="SingleSelectMaster"
+                updateFinished=".onUpdateFinished"
+                selectionChange=".onSelChgWeekDay"
+            >
+                <columns>
+                    <Column>
+                        <Text text="Select a Day" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <Text text="{name}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+            <Table
+                id="tblDetailSports"
+                headerText="Sports"
+                alternateRowColors="true"
+                items="{sports}"
+            >
+                <columns>
+                    <Column>
+                        <Text text="on {name}" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <Text text="{iconEmoji} - {name}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>

@@ -3,11 +3,11 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-<List items="{/products}">
-    <items>
-        <StandardListItem icon="{icon}" iconInset="false" title="{name}" description="{description}" info="{iconEmoji}" />
-    </items>
-</List>
+            <List items="{/products}">
+                <items>
+                    <StandardListItem icon="{icon}" iconInset="false" title="{name}" description="{description}" info="{iconEmoji}" />
+                </items>
+            </List>
         </content>
     </Page>
 </mvc:View>

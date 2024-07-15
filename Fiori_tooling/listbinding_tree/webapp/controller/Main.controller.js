@@ -8,7 +8,7 @@ function (Controller, JSONModel) {
     return Controller.extend("masterclass.ui5.listbindingtree.controller.Main", {
         onInit: function () {
 
-            var oModel = new JSONModel("./model/daySports.json");
+            var oModel = new JSONModel("./model/daySportsTree.json");
             // Defining Named model then binding starts "{tree>/...}"
             this.getView().setModel(oModel, "tree");
         }
