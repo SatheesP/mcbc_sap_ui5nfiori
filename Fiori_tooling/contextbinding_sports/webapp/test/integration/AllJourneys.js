@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "contextbindingsports.view.",
+		viewNamespace: "masterclass.ui5.contextbindingsports.view.",
 		autoWait: true
 	});
 });

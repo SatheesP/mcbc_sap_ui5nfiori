@@ -1,5 +1,5 @@
 sap.ui.define([
-	"contextbinding_sports/test/unit/controller/Main.controller"
+	"masterclassui5/contextbinding_sports/test/unit/controller/Main.controller"
 ], function () {
 	"use strict";
 });

@@ -1,0 +1,56 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Table headerText="Table control with statically populated data">
+        <columns>
+            <Column>
+                <Text text="Product Name" />
+            </Column>
+            <Column>
+                <Text text="Quantity per Unit" />
+            </Column>
+            <Column>
+                <Text text="Unit Price" />
+            </Column>
+            <Column>
+                <Text text="Stock Qty" />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem vAlign="Middle">
+                <cells>
+                    <ObjectIdentifier
+                        title="Chai"
+                        text="0001"
+                    />
+                    <Text text="10 boxes x 20 bags" />
+                    <Text text="18.00" />
+                    <Text text="39" />
+                </cells>
+            </ColumnListItem>
+            <ColumnListItem vAlign="Middle">
+                <cells>
+                    <ObjectIdentifier
+                        title="Chang"
+                        text="0002"
+                    />
+                    <Text text="24 - 12 oz bottles" />
+                    <Text text="19.00" />
+                    <Text text="17" />
+                </cells>
+            </ColumnListItem>
+            <ColumnListItem vAlign="Middle">
+                <cells>
+                    <ObjectIdentifier
+                        title="Aniseed Syrup"
+                        text="0003"
+                    />
+                    <Text text="12 - 550 ml bottles" />
+                    <Text text="10.00" />
+                    <Text text="13" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>

@@ -1,0 +1,11 @@
+{
+  "name": "masterclass.ui5",
+  "version": "1.0.0",
+  "description": "The MasterClass UI5 Simple Controls",
+  "scripts": {
+    "start": "ui5 serve -o index.html"
+  },
+  "main": "index.js",
+  "author": "Sathees Kumar P.",
+  "license": "(MIT OR Apache-2.0)"
+}

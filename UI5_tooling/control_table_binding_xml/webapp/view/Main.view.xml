@@ -1,0 +1,40 @@
+<mvc:View
+    controllerName="masterclass.ui5.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Table
+        id="idProductsTable"
+        headerText="Table control with JSON Model binding"
+        inset="false"
+        items="{path: '/Products', sorter: { path: 'ProductName'} }"
+    >
+        <columns>
+            <Column>
+                <Text text="Product Name" />
+            </Column>
+            <Column>
+                <Text text="Quantity per Unit" />
+            </Column>
+            <Column>
+                <Text text="Unit Price" />
+            </Column>
+            <Column>
+                <Text text="Stock Qty" />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem vAlign="Middle">
+                <cells>
+                    <ObjectIdentifier
+                        title="{ProductName}"
+                        text="{ProductID}"
+                    />
+                    <Text text="{QuantityPerUnit}" />
+                    <Text text="{UnitPrice}" />
+                    <Text text="{UnitsInStock}" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>

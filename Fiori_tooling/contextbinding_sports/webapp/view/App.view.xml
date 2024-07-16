@@ -1,4 +1,4 @@
-<mvc:View controllerName="contextbindingsports.controller.App"
+<mvc:View controllerName="masterclass.ui5.contextbindingsports.controller.App"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">

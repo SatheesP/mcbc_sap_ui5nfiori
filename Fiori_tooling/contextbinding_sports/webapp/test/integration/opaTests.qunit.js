@@ -1,6 +1,6 @@
 /* global QUnit */
 
-sap.ui.require(["contextbindingsports/test/integration/AllJourneys"
+sap.ui.require(["masterclass/ui5/contextbindingsports/test/integration/AllJourneys"
 ], function () {
 	QUnit.config.autostart = false;
 	QUnit.start();

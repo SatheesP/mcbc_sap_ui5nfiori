@@ -2,7 +2,7 @@
 
 specVersion: "3.1"
 metadata:
-  name: contextbindingsports
+  name: masterclass.ui5.contextbindingsports
 type: application
 framework:
   name: SAPUI5
@@ -32,5 +32,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: contextbindingsports
+        component: masterclass.ui5.contextbindingsports
         ui5Theme: sap_horizon

@@ -5,12 +5,12 @@
 sap.ui.define([
         "sap/ui/core/UIComponent",
         "sap/ui/Device",
-        "contextbindingsports/model/models"
+        "masterclass/ui5/contextbindingsports/model/models"
     ],
     function (UIComponent, Device, models) {
         "use strict";
 
-        return UIComponent.extend("contextbindingsports.Component", {
+        return UIComponent.extend("masterclass.ui5.contextbindingsports.Component", {
             metadata: {
                 manifest: "json"
             },

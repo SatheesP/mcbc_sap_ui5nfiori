@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "contextbindingsports",
+    "id": "masterclass.ui5.contextbindingsports",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -55,7 +55,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "contextbindingsports.i18n.i18n"
+          "bundleName": "masterclass.ui5.contextbindingsports.i18n.i18n"
         }
       }
     },
@@ -71,7 +71,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "contextbindingsports.view",
+        "viewPath": "masterclass.ui5.contextbindingsports.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -96,7 +96,7 @@
       }
     },
     "rootView": {
-      "viewName": "contextbindingsports.view.App",
+      "viewName": "masterclass.ui5.contextbindingsports.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

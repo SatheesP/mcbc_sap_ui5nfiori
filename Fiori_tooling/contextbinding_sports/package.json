@@ -25,5 +25,7 @@
     "unit-tests": "fiori run --open 'test/unit/unitTests.qunit.html'",
     "int-tests": "fiori run --open 'test/integration/opaTests.qunit.html'"
   },
-  "sapuxLayer": "CUSTOMER_BASE"
+  "sapuxLayer": "CUSTOMER_BASE",
+  "author": "Sathees Kumar P.",
+  "license": "(MIT OR Apache-2.0)"
 }

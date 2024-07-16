@@ -7,5 +7,5 @@
   },
   "main": "index.js",
   "author": "Sathees Kumar P.",
-  "license": "ISC"
+  "license": "(MIT OR Apache-2.0)"
 }

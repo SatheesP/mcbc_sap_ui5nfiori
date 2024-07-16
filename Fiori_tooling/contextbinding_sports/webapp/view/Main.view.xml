@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="contextbindingsports.controller.Main"
+    controllerName="masterclass.ui5.contextbindingsports.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
     xmlns="sap.m"

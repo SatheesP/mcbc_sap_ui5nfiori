@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"contextbinding_sports/controller/Main.controller"
+	"masterclassui5/contextbinding_sports/controller/Main.controller"
 ], function (Controller) {
 	"use strict";
 
