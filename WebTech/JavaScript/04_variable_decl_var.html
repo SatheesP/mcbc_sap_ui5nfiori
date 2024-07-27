@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<script>
+  "use strict";
+
+  function myFunc1() {
+    var x = "Hello!";
+
+    console.log(x);
+    if (x) {  // x has the value, not having 'undefined'
+      var x = x + " world!";
+    }
+    console.log(x);
+  }
+  myFunc1();
+
+  function myFunc2() {
+    x = "firstName";
+
+    console.log(x);
+    if (x) {
+      // var declaration hoisted to top of func
+      var x = "lastName";
+    }
+    console.log(x);
+  }
+  myFunc2();
+</script>

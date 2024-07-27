@@ -1,6 +1,14 @@
 {
   "configurations": [
     {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+        
+    {
       "name": "Start listbinding_products",
       "type": "node",
       "request": "launch",

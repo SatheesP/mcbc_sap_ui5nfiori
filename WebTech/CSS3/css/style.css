@@ -1,0 +1,4 @@
+/* HTML element + Class selector */		
+hr.heading { 
+    border-top: 4px dashed darkorchid;
+}

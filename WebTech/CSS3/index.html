@@ -5,34 +5,37 @@
     <meta charset="UTF-8"/>
     <title>Master Class</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Adding external stylesheet or css file -->
-	<style>
-		/* Embedded/internal style or css definition */
-		hr.heading { 
-			border-top: 2px dashed darkblue;
-		}
-		
-		hr.section {
-			border: 5px solid limegreen;
-			border-radius: 2px;
-		}
-		
+	<style>  /* Embedded/internal style or css definition */	
+		/* HTML element selector*/
 		li { color: green; list-style-type: square; }
 		li:nth-child(odd) { color: deeppink; }
 		
-		/* reuse the class selector for multiple different html elements */
+		/* Class selector reused with different html elements */
 		.underline {
 			/* border-top: 0px; */
 			border-bottom: 2px dotted yellowgreen;
+		}
+
+		/* HTML element + Class selector */		
+		hr.section {
+			border: 5px solid limegreen;
+			border-radius: 2px;
+		}	
+
+		/* HTML element ID selector */
+		#demo {
+			text-align: center;
+			color: fuchsia;
 		}
 	</style>
 </head>
 
 <body>
 	<h1 style="color:blue;font-style:italic;">Master Class offers BOOTCAMP for set of SAP Technology topics</h1>
-	<hr class="heading"/> <!-- inline style or css definition -->
+	<hr class="heading"/> <!-- external style or css definition -->
     <p title="Master Class BOOTCAMP">BOOTCAMP sample source available as public git repos, 
 	each BOOTCAMP is associated with Quick Reference Guide in-line with Training Content.</p>
-	<hr class="section"/>
+	<hr class="section"/> <!-- inline style or css definition -->
 	<ul>
 		<li title="BOOTCAMP">ABAP in Eclipse</li> <!-- title attribute displayed as Tooltip -->
 		<li title="BOOTCAMP">Modern ABAP</li>
@@ -42,6 +45,8 @@
 	</ul>
 	
 	<hr class="underline"/> <!-- reusing style class above last list item and here -->
+
+	<p id="demo">Thanks for participating the MasterClass BOOTCAMP session</p>
 </body>
 
 </html>

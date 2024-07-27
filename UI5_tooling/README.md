@@ -4,11 +4,13 @@
 
 * Unzip contents inside `node-v20.13.1-win-x64/` ZIP file folder into PC folder `C:\DevTools\Node.js`
 
-* Windows Start search for `Edit environment variables for your account` then select it and configure `**Path** > Edit`, Popup select New and configure `C:\DevTools\Node.js`.
+* Windows Start search for `Edit environment variables for your account` then select it and configure `Path > Edit`, Popup select New and configure `C:\DevTools\Node.js`.
 <img src="img/Node.js path setting OS Env Var.png" width='60%' />
 
-* To verify **Node.JS** installation, **CMD/Terminal** window > `node -v` or `npm -v`
+* To verify **Node.JS** installation, **CMD/Terminal** window `>node -v` or `>npm -v`
 
-* To install **UI5 Tooling** locally on your PC, **CMD/Terminal** window > `npm i -g @ui5/cli`
+* To install **UI5 Tooling** locally on your PC, **CMD/Terminal** window `>npm i -g @ui5/cli`
 
-* To verify **UI5 Tooling**, **CMD/Terminal** window > `ui5 -v`
+* To verify **UI5 Tooling**, **CMD/Terminal** window `>ui5 -v`
+
+* More information refer [`official 'UI5 Tooling' page`](https://sap.github.io/ui5-tooling/stable/)

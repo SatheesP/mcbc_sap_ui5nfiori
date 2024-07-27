@@ -89,7 +89,7 @@
       "dayId": 6,
       "name": "Saturday",
       "iconEmoji": "🔥",
-      "sports": [
+      "sessions": [
         {
           "sportId": 1,
           "name": "Morning",
@@ -135,7 +135,7 @@
       "dayId": 7,
       "name": "Sunday",
       "iconEmoji": "🔥",
-      "sports": [
+      "sessions": [
         {
           "sportId": 1,
           "name": "Morning",

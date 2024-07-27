@@ -31,10 +31,10 @@ function (Controller, JSONModel) {
             // Get the binding context of selected list-item
             var oContext = oEvt.getSource().getSelectedItem().getBindingContext();
 
-            // Get the context binding path of selected list-item
+            // Get the context (element) binding path of selected list-item
             var sContextPath = oContext.getPath();
 
-            // Bind elements to detail table
+            // Context (element) Binding using Path to detail table
             this.getView().byId("tblDetailSports").bindElement(sContextPath);
         }
     });

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JS Learning - 4 ways of output</title>
+
+<body>
+    <h1>Master Class UI5 n Fiori</h3>
+        <p title="Master Class BOOTCAMP">JavaScript has to be learned as prerequisites.</p>
+        <hr />
+        <p>1. Sum of two numbers shown as Alert box</p>
+        <script>
+            window.alert("Sum: " + (5 + 6));
+        </script>
+        <hr />
+        <br />
+
+        <p>2. Sum of two numbers using document.write() method</p>
+        <script>
+            document.write("sum: " + (5 + 6));
+        </script>
+        <hr />
+        <br />
+
+        <p>3. Sum of two numbers using innerHTML attribute</p>
+        <p id="demo">test</p>
+        <script>
+            document.getElementById("demo").innerHTML = "sum: " + (5 + 6); 
+        </script>
+        <hr />
+        <br />
+        
+        <p>4. Sum of two numbers using console.log() 'open browser console to see the output'</p>
+        <script>
+            console.log("sum: " + (5 + 6)); 
+        </script>
+</body>
+
+</html>

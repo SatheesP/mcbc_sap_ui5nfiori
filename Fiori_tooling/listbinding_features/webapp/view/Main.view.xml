@@ -17,6 +17,9 @@
                               { path: 'name', descending: false, group: false } ]
                     }"
                 mode="SingleSelectMaster"
+                growing="true"
+                growingThreshold="25"
+                growingScrollToLoad="false"
                 updateFinished=".onUpdateFinished"
                 selectionChange=".onSelChgWeekDay"
             >

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JS Learning - External JS</title>
+        <script src="./js/ext_javascript.js"></script>
+	</head>
+    <body>
+        <h1>Master Class UI5 n Fiori</h3>
+        <p title="Master Class BOOTCAMP">JavaScript has to be learned as prerequisites.</p>
+        <hr />
+        <p id="demo">Welcome to ???</p>
+        <button type="button" onclick="myFunc()">Click me</button>
+        <!-- Below code shows, placing the JS code directly inside the HTML tag -->
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Welcome to ???';">Reset</button>
+        <p>(myFunc function is stored in an external JS file 'ext_javascript.js')</p>
+    </body>
+</html>
