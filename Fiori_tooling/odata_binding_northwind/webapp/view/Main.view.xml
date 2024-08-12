@@ -1,0 +1,90 @@
+<mvc:View controllerName="masterclass.ui5.odata.bindingnorthwind.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <!-- XML way of doing Context/Element binding -->
+        <Panel
+            id="_IDGenPanel1"
+            headerText="OData Binding - XML"
+            binding="{/Customers('ANTON')}"
+        >
+            <content>
+                <Label
+                    id="_IDGenLabel1"
+                    text="Customer:"
+                    labelFor="_IDGenText1"
+                    width="25%"
+                />
+                <!-- Relative property binding -->
+                <Text
+                    id="_IDGenText1"
+                    text="{CustomerID}"
+                    width="75%"
+                />
+                <Label
+                    id="_IDGenLabel2"
+                    text="Company Name:"
+                    labelFor="_IDGenText2"
+                    width="25%"
+                />
+                <!-- Absolute property binding -->
+                <Text
+                    id="_IDGenText2"
+                    text="{/Customers('ANTON')/CompanyName}"
+                    width="75%"
+                />
+            </content>
+        </Panel>
+        <!-- JS way of dynamically using bindElement method  -->
+        <Panel
+            id="_IDGenPanel2"
+            headerText="OData Binding - JS" 
+        >
+            <content>
+                <Label
+                    id="_IDp2Label1"
+                    text="Customer:"
+                    labelFor="_IDGenText1"
+                    width="25%"
+                />
+                <!-- Relative property binding -->
+                <Text
+                    id="_IDp2Text1"
+                    text="{CustomerID}"
+                    width="75%"
+                />
+                <Label
+                    id="_IDp2Label2"
+                    text="Company Name:"
+                    labelFor="_IDGenText2"
+                    width="25%"
+                />
+                <!-- Absolute property binding -->
+                <Text
+                    id="_IDp2Text2"
+                    text="{/Customers('CENTC')/CompanyName}"
+                    width="75%"
+                />
+            </content>
+        </Panel>
+        <Panel
+            id="_IDGenPanel3"
+            headerText="OData Binding - oBindingInfo"
+        >
+            <content>
+                <!-- Absolute List/Aggregate binding -->
+                <List id="_IDGenList1" items="{ path: '/Categories',
+                        parameters: { select: 'CategoryID,CategoryName,Description' },
+                        events: {
+                            dataRequested: '.onDataRequested',
+                            dataReceived: '.onDataReceived'
+                        } }">
+                    <items>
+                        <!-- Relative property binding -->
+                        <StandardListItem id="_IDGenStandardListItem1" title="{CategoryName}" description="{Description}" info="{CategoryID}"/>
+                    </items>
+                </List>
+            </content>
+        </Panel>
+    </Page>
+</mvc:View>
