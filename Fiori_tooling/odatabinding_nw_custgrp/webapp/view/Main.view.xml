@@ -1,0 +1,52 @@
+<mvc:View controllerName="masterclass.ui5.odata.bindingnwcustgrp.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Table noDataText="no data" id="table0" items="{path:'/Products',
+                parameters:{
+                    expand:'Category',
+                    select:'ProductName,QuantityPerUnit,UnitsInStock,Category/CategoryName,Category/Description'},
+                sorter:[{path:'Category/CategoryName',descending:false,group:'.getGroupKey'},
+                        {path:'UnitsInStock',descending:true}],
+                groupHeaderFactory:'.getGroupHeader'}">
+            <items>
+                <ColumnListItem type="Active" id="item0">
+                    <cells>
+                        <Text text="{ProductName}" id="text2"/>
+                        <Text text="{QuantityPerUnit}" id="text3"/>
+                        <Text text="{UnitsInStock}" id="text4"/>
+                        <Text text="{Category/CategoryName}" id="text5"/>
+                        <Text text="{Category/Description}" id="text6"/>
+                    </cells>
+                </ColumnListItem>
+            </items>
+            <columns>
+                <Column id="column0">
+                    <header>
+                        <Label text="Product Name" id="label0"/>
+                    </header>
+                </Column>
+                <Column id="column1">
+                    <header>
+                        <Label text="Quantity/Unit" id="label1"/>
+                    </header>
+                </Column>
+                <Column id="column2">
+                    <header>
+                        <Label text="Stock" id="label2"/>
+                    </header>
+                </Column>
+                <Column id="column3">
+                    <header>
+                        <Label text="Category" id="label3"/>
+                    </header>
+                </Column>
+                <Column id="column4">
+                    <header>
+                        <Label text="Category Description" id="label4"/>
+                    </header>
+                </Column>
+            </columns>
+        </Table>
+    </Page>
+</mvc:View>
